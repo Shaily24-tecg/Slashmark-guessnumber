@@ -16,9 +16,8 @@ def intro():
 
 def pick(name):  # FIX: name passed here
     guessesTaken = 0
-    number = random.randint(1, 200)  # FIX: moved inside function
-
-    while guessesTaken < 10:
+    
+    while guessesTaken < 6:
         time.sleep(.25)
         enter = input("Guess: ")
 
@@ -29,7 +28,7 @@ def pick(name):  # FIX: name passed here
                 guessesTaken = guessesTaken + 1
 
                 # CHANCES DISPLAY
-                print("Remaining chances:", 10 - guessesTaken)
+                print("Remaining chances:", 6 - guessesTaken)
 
                 if guess < number:
                     print("The guess is too low")
@@ -40,7 +39,7 @@ def pick(name):  # FIX: name passed here
                 else:
                     break
 
-                if guessesTaken < 10:
+                if guessesTaken < 6:
                     time.sleep(.5)
                     print("Try Again!")
 
