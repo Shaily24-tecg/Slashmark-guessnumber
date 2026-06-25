@@ -32,12 +32,10 @@ def pick(name):  # FIX: name passed here
                 print("Remaining chances:", 6 - guessesTaken)
 
                 if guess < number:
-                    print("The guess is too low 📉")
-                    print("Hint: Go higher!")
+                    print("The guess is too low")
 
                 elif guess > number:
-                    print("The guess is too high 📈")
-                    print("Hint: Go lower!")
+                    print("The guess is too high")
 
                 else:
                     break
