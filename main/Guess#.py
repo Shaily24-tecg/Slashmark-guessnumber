@@ -3,6 +3,8 @@ import time
 number=random.randint(1, 200) #pick the number between 1 and 200
 
 def intro():
+    print("Hello! Welcome to the Guessing Game!")
+    print("==== Instructions ====")
     print("May I ask you for your name?")
     name=input() #asks for the name
     print(name + ", we are going to play a game. I am thinking of a number between 1 and 200")
