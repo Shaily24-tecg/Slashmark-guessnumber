@@ -20,7 +20,8 @@ def pick():
             guess = int(enter) #stores the guess as an integer instead of a string    
 
             if guess<=200 and guess>=1: #if they are in range
-                guessesTaken=guessesTaken+1 #adds one guess each time the player is wrong
+                guessesTaken=guessesTaken+1 
+                print("Remaining chances:", 6 - guessesTaken)#adds one guess each time the player is wrong
                 if guessesTaken<6:
                     if guess<number:
                         print("Too low")
