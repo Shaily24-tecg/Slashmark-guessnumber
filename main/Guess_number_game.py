@@ -23,9 +23,9 @@ def pick():
                 guessesTaken=guessesTaken+1 #adds one guess each time the player is wrong
                 if guessesTaken<6:
                     if guess<number:
-                        print("The guess of the number that you have entered is too low")
+                        print("Too low")
                     if guess>number:
-                        print("The guess of the number that you have entered is too high")
+                        print("Too high")
                     if guess != number:
                         time.sleep(.5)
                         print("Try Again!")
