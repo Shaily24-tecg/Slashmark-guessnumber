@@ -11,7 +11,7 @@ def intro():
     name = input()  # asks for the name
     print(name + ", we are going to play a game. I am thinking of a number between 1 and 200")
     time.sleep(.5)
-    print("Go ahead. Guess!")
+    print("Let's Go. Guess!")
     return name  # IMPORTANT FIX
 
 def pick(name):  # FIX: name passed here
