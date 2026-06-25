@@ -7,7 +7,7 @@ A simple Python-based number guessing game where the system generates a random n
 - User input based guessing
 - Hint system (Too High / Too Low)
 - Win condition on correct guess
-- only 6 chance to guess a number
+- Only 6 chance to guess a number
 
 ## Requirements
 - Python 3.x
