@@ -47,7 +47,7 @@ def pick():
         print('Nope. The number I was thinking of was ' + str(number))
 
 playagain="yes"
-while playagain=="yes" or playagain=="y" or playagain=="Yes":
+while playagain.lower() in ["yes", "y"]:
     intro()
     pick()
     print("Do you want to play again? yes or no")
