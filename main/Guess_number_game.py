@@ -40,12 +40,12 @@ def pick(name):  # FIX: name passed here
                 else:
                     break
 
-                if guessesTaken < 6:
+                if guessesTaken < 10:
                     time.sleep(.5)
                     print("Try Again!")
 
             else:
-                print("Silly Goose! That number isn't in the range!")
+                print("Silly Goose! That number is out of range!")
                 time.sleep(.25)
                 print("Please enter a number between 1 and 200")
 
