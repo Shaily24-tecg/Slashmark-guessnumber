@@ -4,7 +4,7 @@ import time
 number = random.randint(1, 200)  # pick the number between 1 and 200
 
 def intro():
-    print("Hello! Welcome to the Guessing Game!")
+    print("\nHello! Welcome to the Guessing Game!")
     print("==== Menu ====")
     print("You have 6 chances. Use them wisely.")
     print("May I ask you for your name?")
